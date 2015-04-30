@@ -4,10 +4,10 @@ angular.module('splashDemo', ['ui.splash'])
   this.openSplash = function () {
     $splash.open({
       title: 'Hi there!',
-      message: "Name : Scott Lin\r
-                E-mail : typhoon31815@gmail.com/n
-                Nation : Taiwan/n
-                Github : https://github.com/MAJA-Lin/n
+      message: "Name : Scott Lin\r\n
+                E-mail : typhoon31815@gmail.com\r\n
+                Nation : Taiwan\r\n
+                Github : https://github.com/MAJA-Lin\r\n
                 Linkedin : https://www.linkedin.com/profile/view?id=388023259&trk=nav_responsive_tab_profile"
     });
   };

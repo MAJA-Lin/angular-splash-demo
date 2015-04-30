@@ -4,7 +4,11 @@ angular.module('splashDemo', ['ui.splash'])
   this.openSplash = function () {
     $splash.open({
       title: 'Hi there!',
-      message: "This sure is a fine modal, isn't it?"
+      message: "Name : Scott Lin\
+                E-mail : typhoon31815@gmail.com\
+                Nation : Taiwan\
+                Github : https://github.com/MAJA-Lin\
+                Linkedin : https://www.linkedin.com/profile/view?id=388023259&trk=nav_responsive_tab_profile"
     });
   };
 }]);

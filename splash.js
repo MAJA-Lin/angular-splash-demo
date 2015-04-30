@@ -4,11 +4,7 @@ angular.module('splashDemo', ['ui.splash'])
   this.openSplash = function () {
     $splash.open({
       title: 'Hi there!',
-      message: "Name : Scott Lin\
-                E-mail : typhoon31815@gmail.com\
-                Nation : Taiwan\
-                Github : https://github.com/MAJA-Lin\
-                Linkedin : https://www.linkedin.com/profile/view?id=388023259&trk=nav_responsive_tab_profile"
+      message: "E-mail : typhoon31815@gmail.com"
     });
   };
 }]);
@@ -46,7 +42,7 @@ angular.module('ui.splash', ['ui.bootstrap'])
       '<div class="splash-content text-center">' +
       '  <h1 ng-bind="title"></h1>' +
       '  <p class="lead" ng-bind="message"></p>' +
-      '  <button class="btn btn-lg btn-outline" ng-bind="btnText || \'Ok, cool\'" ng-click="$close()"></button>' +
+      '  <button class="btn btn-lg btn-outline" ng-bind="btnText || \'Roger that!\'" ng-click="$close()"></button>' +
       '</div>'
     );
   }
